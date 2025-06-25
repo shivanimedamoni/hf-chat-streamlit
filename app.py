@@ -9,7 +9,7 @@ if user_input:
     with st.spinner("Thinking..."):
         response = requests.post(
             "https://api-inference.huggingface.co/models/microsoft/DialoGPT-medium",
-            headers={"Authorization": f"Bearer {st.secrets['HF_token']}"},
+            headers = {"Authorization": f"Bearer {st.secrets['HF_TOKEN']}"} 
             json={"inputs": {"text": user_input}}
         )
 

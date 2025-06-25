@@ -16,4 +16,4 @@ user_input = st.text_input("You: ")
 
 if user_input:
     output = query({"inputs": user_input})
-    st.write("AI:", output[0]['generated_text'])
+    st.write("AI", output [0]['generated text'])

@@ -1,4 +1,4 @@
-import requests
+﻿import requests
 
 headers = {"Authorization": f"Bearer {st.secrets['HF_TOKEN']}"}
 API_URL = "https://api-inference.huggingface.co/models/your-model-name"
